@@ -13,6 +13,10 @@
       "version": "1.0.0",
       "sha": "d551041fc6a8"
     },
+    "agents/system-agent": {
+      "version": "1.0.0",
+      "sha": "7868eb15feed"
+    },
     "skills/db-migrate": {
       "version": "1.0.0",
       "sha": "5db9fa3e1752"
@@ -24,6 +28,10 @@
     "skills/pr-review": {
       "version": "1.0.0",
       "sha": "3d832943ed72"
+    },
+    "skills/teams-agent": {
+      "version": "1.0.0",
+      "sha": "36d4218555d0"
     },
     "hooks/block-secrets": {
       "version": "1.0.0",
