@@ -13,6 +13,10 @@
       "version": "1.0.0",
       "sha": "d551041fc6a8"
     },
+    "agents/nextjs-agent": {
+      "version": "1.0.0",
+      "sha": "6f075c848774"
+    },
     "agents/react-agent": {
       "version": "1.0.0",
       "sha": "9deb113cb6a0"
