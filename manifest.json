@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "items": {
+    "agents/backend-agent": {
+      "version": "1.0.0",
+      "sha": "ee07ce20972b"
+    },
+    "agents/example-agent": {
+      "version": "1.0.0",
+      "sha": "392b805b5c04"
+    },
+    "agents/frontend-agent": {
+      "version": "1.0.0",
+      "sha": "d551041fc6a8"
+    },
+    "skills/db-migrate": {
+      "version": "1.0.0",
+      "sha": "5db9fa3e1752"
+    },
+    "skills/example-skill": {
+      "version": "1.0.0",
+      "sha": "25ac958e5b8f"
+    },
+    "skills/pr-review": {
+      "version": "1.0.0",
+      "sha": "3d832943ed72"
+    },
+    "hooks/block-secrets": {
+      "version": "1.0.0",
+      "sha": "2b140b299a6f"
+    },
+    "hooks/example-hook": {
+      "version": "1.0.0",
+      "sha": "876ba6f1272c"
+    },
+    "hooks/log-tool-use": {
+      "version": "1.0.0",
+      "sha": "fee6eadd05e1"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "PreToolUse": [
+    {
+      "matcher": "Bash",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '[registry hook] pre-bash: $CLAUDE_TOOL_NAME'"
+        }
+      ]
+    }
+  ]
+}

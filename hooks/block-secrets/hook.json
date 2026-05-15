@@ -1,0 +1,13 @@
+{
+  "PreToolUse": [
+    {
+      "matcher": "Write",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo \"$CLAUDE_TOOL_INPUT\" | python3 -c \"\nimport sys, json, re, os\ntry:\n    data = json.load(sys.stdin)\n    content = data.get('content', '')\n    patterns = [\n        r'(?i)(api_key|secret|password|token)\\s*=\\s*[\\\"\\'][^\\\"\\' ]{8,}',\n        r'(?i)aws_secret_access_key\\s*=',\n        r'sk-[a-zA-Z0-9]{32,}',\n    ]\n    for p in patterns:\n        if re.search(p, content):\n            print(f'BLOCKED: possible secret detected in file write. Review before proceeding.')\n            sys.exit(2)\nexcept Exception:\n    pass\n\""
+        }
+      ]
+    }
+  ]
+}
