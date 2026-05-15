@@ -13,6 +13,10 @@
       "version": "1.0.0",
       "sha": "d551041fc6a8"
     },
+    "agents/react-agent": {
+      "version": "1.0.0",
+      "sha": "9deb113cb6a0"
+    },
     "agents/system-agent": {
       "version": "1.0.0",
       "sha": "7868eb15feed"
